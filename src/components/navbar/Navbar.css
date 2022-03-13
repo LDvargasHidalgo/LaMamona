@@ -1,0 +1,17 @@
+.navbar{
+  border-bottom: 0.3rem solid #D09443;
+  padding: -3px !important;
+}
+
+.cartShopping{
+  margin-right: 30px;
+  width: 3rem;
+}
+.bg-nav {
+  background: black;
+}
+
+.nav-link:hover{
+  border: 1px solid #ff000040;
+  box-shadow: 0 0.5em 0.5em -0.4em ;
+}

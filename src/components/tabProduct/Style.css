@@ -1,0 +1,28 @@
+.image{
+  width: 90% !important;
+  padding: 15px;
+  height: 190px !important;
+}
+
+.image:hover{
+  padding: 1px;
+}
+.modal-content{
+  width:35rem !important ;
+}
+.imageModal{
+  width: 8rem;
+  height: 8rem;
+  margin-right: 2rem;
+  padding: 0.1rem;
+}
+.quantity{
+font-size: 1.1rem;
+font-weight: 1;
+}
+.nameProduct{
+font-family: 'Great Vibes', cursive;
+font-size: 2.5rem;
+color:#BC1F23;
+font-weight:bold;
+}

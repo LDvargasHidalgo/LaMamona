@@ -1,0 +1,19 @@
+span, .tittle{
+  color: aliceblue;
+}
+.Tittle{
+  font-family: 'Teko', sans-serif;
+  font-size: 2.3rem !important;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+ 
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px  #f70101;
+  }
+  to {
+    text-shadow: 0 0 30px #f70101, 0 0 10px  #f70101;;
+  }
+}
