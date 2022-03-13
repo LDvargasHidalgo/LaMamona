@@ -1,5 +1,5 @@
 import React from "react";
-import { useCart } from "react-use-cart";
+import {useCart} from "react-use-cart";
 import Tittle from "../header/tittle/Tittle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
@@ -15,6 +15,7 @@ const Cart = () => {
 		removeItem,
 		emptyCart
 	} = useCart();
+	console.log(totalUniqueItems)
 
 	const sendMessage = () => {
 		let msg = [];
