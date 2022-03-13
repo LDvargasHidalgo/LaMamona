@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/repository-LaMamona/static/css/main.d73d40b7.css",
+    "main.js": "/repository-LaMamona/static/js/main.84c2715b.js",
+    "static/js/787.fd39d11b.chunk.js": "/repository-LaMamona/static/js/787.fd39d11b.chunk.js",
+    "index.html": "/repository-LaMamona/index.html",
+    "main.d73d40b7.css.map": "/repository-LaMamona/static/css/main.d73d40b7.css.map",
+    "main.84c2715b.js.map": "/repository-LaMamona/static/js/main.84c2715b.js.map",
+    "787.fd39d11b.chunk.js.map": "/repository-LaMamona/static/js/787.fd39d11b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d73d40b7.css",
+    "static/js/main.84c2715b.js"
+  ]
+}
