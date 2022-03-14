@@ -75,7 +75,7 @@ const Cart = () => {
                         </td>
 
                         <td>{item.product} &nbsp;&nbsp; </td>
-                        <td>${item.price}</td>
+                        <td>${item.price*item.quantity}</td>
                         <td>
                           <button
                             className="btn btn-warning ms-2 "
