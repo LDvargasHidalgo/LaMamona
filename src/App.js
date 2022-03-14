@@ -10,9 +10,9 @@ function App() {
 			<BrowserRouter>
 			<Navbar/>
 				<Routes>
-					<Route path="/" element={<Landing />} />
-					<Route path="/gallery" element={<Products />}>
-						<Route path=":category" element={<Products />} />
+					<Route path="/" element={<Landing  />} />
+					<Route path="/gallery" element={<Products  />}>
+						<Route path=":category" element={<Products  />} />
 					</Route>
 				</Routes>
 				<Footer/>
