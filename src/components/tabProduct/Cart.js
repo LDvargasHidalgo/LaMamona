@@ -24,7 +24,7 @@ const Cart = () => {
 		  msg += textopedido;
 		}
 		window.open(
-		  `https://api.whatsapp.com/send?phone=${"3144695811"}&text=${"Hola quisiera pedir:  "}${msg} precioTotal:${cartTotal}`
+		  `https://api.whatsapp.com/send?phone=${"3144695811"}&text=${"Hola quisiera pedir:  "}${msg} precioTotal: ${cartTotal}`
 		);
 	 };
 
