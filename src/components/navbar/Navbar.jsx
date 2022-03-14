@@ -1,14 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
-
 import "./Navbar.css";
-
 function Navbar() {
-	const {	
-		totalUniqueItems,	
+	const {
+		isEmpty,
+		totalUniqueItems,
+		items,
+		totalItems,
+		cartTotal,
+		updateItemQuantity,
+		removeItem,
+		emptyCart
 	} = useCart();
-	console.log(totalUniqueItems);
+console.log(totalItems)
+
 	return (
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-nav fixed-top ">
