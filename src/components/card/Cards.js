@@ -34,7 +34,6 @@ const cards = [
 		image: "./assets/embutidos.jpg"
 	}
 ];
-
 function Cards() {
 	return (
 		<div className="container d-flex card-container justify-content-between my-5 ">

@@ -3,11 +3,13 @@ import Landing from "./pages/Landing";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Products from "./pages/Products";
+import { CartProvider } from "react-use-cart";
 
 function App() {
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<BrowserRouter>			
+			<CartProvider>
 			<Navbar/>
 				<Routes>
 					<Route path="/" element={<Landing  />} />
@@ -16,6 +18,7 @@ function App() {
 					</Route>
 				</Routes>
 				<Footer/>
+				</CartProvider>
 			</BrowserRouter>
 		</div>
 	);

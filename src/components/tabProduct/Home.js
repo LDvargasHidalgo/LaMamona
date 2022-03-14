@@ -15,7 +15,7 @@ const Home = () => {
 	useEffect(() => {
 		filterItem(category);
 	}, [category]);
-	/* console.warn(data.productData); */
+
 	return (
 		<div>
 			<h1 className="text-center mt-3">All Items</h1>
@@ -23,6 +23,7 @@ const Home = () => {
 				<div className="row justify-content-center">
 					{data.product}
 					{items.map((item, index) => {
+						
 						return (
 							<ItemCard
 								image={item.image}
@@ -33,7 +34,7 @@ const Home = () => {
 							/>
 						);
 					})}
-					{/* <ItemCard image="image" product="product" price="price" /> */}
+			
 				</div>
 			</section>
 		</div>

@@ -6,10 +6,10 @@ import {CartProvider} from "react-use-cart"
 function Products() {
   return (
     <>
-    <CartProvider>
+    <>
       <Home/>
       <Cart/>
-      </CartProvider>
+      </>
     </>
   )
 }

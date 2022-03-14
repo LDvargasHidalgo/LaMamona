@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Card.css";
 
-function card({ title, image }) {
+function card({ title, image}) {
+	
 	return (
 		<div className="boxPrin my-4">
 			<div className="box   ">
@@ -15,7 +16,7 @@ function card({ title, image }) {
 					</div>
 					<div className="details">
 						<Link
-							to="/gallery/"
+							to="/gallery/{title2}"
 							className="btn btn-outline-danger p-2  watch btn-lg  button-whatch "
 						>
 							Ver más
