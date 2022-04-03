@@ -8,7 +8,7 @@ function Header() {
 		<div>
 			<div className="header ">
 				<img
-					src="https://smartdemowp.com/carneshop/wp-content/uploads/2020/06/banner-1.jpg"
+					src="/assets/bg-header.jpg"
 					className="img-fluid img-bg "
 					alt=""
 				/>

@@ -5,7 +5,7 @@ const data = {
 			product: "Carne fina",
 			price: "9500",
 			category: "res",
-			image: "https://smartdemowp.com/carneshop/wp-content/uploads/2020/06/portfolio-2.jpg"
+			image: "/assets/res.jpg"
 		},
 
 		{
@@ -13,14 +13,14 @@ const data = {
 			product: "Centro de pierna",
 			price: "9500",
 			category: "res",
-			image: "centroPierna.jpg"
+			image: "/assets/centroPierna.jpg"
 		},
 		{
 			id: 3,
 			product: "Cadera",
 			price: "9500",
 			category: "res",
-			image: "https://smartdemowp.com/carneshop/wp-content/uploads/2020/06/about-3.jpg"
+			image: "/assets/cadera.jpg"
 		},
 		{
 			id: 4,
